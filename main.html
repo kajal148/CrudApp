@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Information</title>
+	<link rel="stylesheet" href="css/style.css">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+				<!-- USER FORM -->
+	<div class="container">
+		<form onsubmit="event.preventDefault();onFormSubmit();" autocomplete="off">
+			<h2> ADD USER </h2>
+			<div class="form-control">
+				<label for="fname">First Name</label>
+				<input type="text" id="fname" placeholder="Enter First Name...">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="mname">Middle Name</label>
+				<input type="text" id="mname" placeholder="Enter Middle Name...">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="lname">Last Name</label>
+				<input type="text" id="lname" placeholder="Enter Last Name...">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="email">Email</label>
+				<input type="email" id="email" placeholder="Enter Email...">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="dob">Date of Birth</label>
+				<input type="date" id="dob" placeholder="Enter DOB">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="country">Country</label>
+				<input type="text" id="country" placeholder="Enter Country...">
+				<small>Error Message</small>
+			</div>
+			<div class="form-control">
+				<label for="position">Position</label>
+				<input type="text" id="position" placeholder="Enter Postition...">
+				<small>Error Message</small>
+			</div>
+			<button class="form-button" type="submit">Submit</button>
+		</form>
+	</div>
+			<!-- SHOW TABLE -->
+
+	<div class="container-table">
+		<h2 style="margin:30px auto;"> ALL USERS </h2>
+		<table id="userList">
+	        <thead>
+	            <tr>
+	                <th>First Name</th>
+	                <th>Middle Name</th>
+	                <th>Last Name</th>
+	                <th>Email</th>
+	                <th>DOB</th>
+	                <th>Country</th>
+	                <th>Position</th>           
+	            </tr>
+	        </thead>
+	        <tbody>
+	        </tbody>
+	    </table>
+	</div>
+	
+	
+</body>
+<script type="text/javascript" src="js/script.js"></script>
+</html>
