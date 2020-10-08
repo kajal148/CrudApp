@@ -119,8 +119,8 @@ function insertNewRecord(data){
     cell7 = newRow.insertCell(6);
     cell7.innerHTML = data.position;
     cell4 = newRow.insertCell(7);
-    cell4.innerHTML = `<button class="btn-edit" onClick="onEdit(this)">Edit</a>
-                       <button class="btn-delete" onClick="onDelete(this)">Delete</a>`;
+    cell4.innerHTML = `<a class="btn-edit" href="#container" onClick="onEdit(this)">Edit</a>
+                       <a class="btn-delete" onClick="onDelete(this)">Delete</a>`;
 }
 
 function onEdit(td){

@@ -11,6 +11,10 @@
 	box-sizing: border-box;
 }
 
+a{
+	text-decoration: none;
+}
+
 body{
 	background-color: white;
 	font-family: 'Open Sans', 'sans-serif';
